@@ -1,0 +1,27 @@
+.menu-game-section {
+    color: red;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 10px;
+}
+
+.to-center {
+    position: fixed;
+    top: 34%;
+    left: 40%;
+}
+
+.cool-style {
+    border: 1px solid;
+    border-radius: 20%;
+    text-align: center;
+    width: 26%;
+}
