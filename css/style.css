@@ -1,8 +1,102 @@
+#test-content {
+    position: fixed;
+    top: 24%;
+    left: 22%;
+    text-align: center;
+}
+
+.my-input {
+    position: relative;
+    margin: 12px 0px;
+    font-size: 1.5em;
+    background: linear-gradient(21deg, #10abff, #1beabd);
+    padding: 3px;
+    display: inline-block;
+    border-radius: 9999em;
+}
+
+*:not(span) {
+    position: relative;
+    display: inherit;
+    border-radius: inherit;
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 0 .325em;
+    z-index: 1;
+
+}
+
+select.mySelectArrow {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #20d492;
+    color: #fff;
+    width: 18%;
+    padding: 10px 20px;
+    font-size: 22px;
+    /* margin: 19px 0px; */
+}
+
+select.mySelectArrow option {
+    color: #000;
+    padding: 0 10px;
+}
+
+/* .select:after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 25px;
+    border: 1px solid #565656;
+    background: #0e7b53;
+    color: #fff;
+    padding: 11px 15px;
+    pointer-events: none;
+} */
+.select {
+    position: relative;
+    left: 46%;
+    width: 300px;
+}
+
+
 .menu-game-section {
+    font-family: fantasy;
     color: red;
     position: fixed;
-    top: 50%;
+    top: 39%;
     left: 50%;
+    font-size: 36px;
+    border: 3px solid;
+    background-color: #00800069;
+    border-radius: 104px 10px 37px 10px;
+}
+
+#check-btn {
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 4px;
+    width: 171px;
+    /* -webkit-transition: all 0.5s; */
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all -0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#check-btn:hover {
+    color: white;
+    background-color: red;
 }
 
 ul {

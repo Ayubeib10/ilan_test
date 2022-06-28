@@ -5,25 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/script.js"></script>
 </head>
 
 <body onload="putValues()">
-    <input id="el1" />
-    <select name="action" id="calc-action">
-        <option value="+">+</option>
-        <option value="-">-</option>
-        <option value="*">*</option>
-        <option value="/">/</option>
-      </select>
-    <input id="el2" />
-    <span>=</span>
-    <input id="result" />
-    <button onclick="calculate()">check</button><br />
-    <input id="grade" value="0" />
+    <div id="test-content">
+        <input class="my-input" id="el1" />
+        <div class="select">
+            <select class="mySelectArrow" name="action" id="calc-action">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        </div><br />
+
+        <input class="my-input" id="el2" /><br />
+        <span style="color: red;font-size:62px;">=</span><br />
+        <input class="my-input" id="result" /><br />
+        <button id="check-btn" onclick="calculate()">check</button><br />
+        <input style="color: red;font-size:62px;    position: relative;
+   left: 45%;" id="grade" value="0" /><br />
+    </div>
+
 </body>
 
 </html>
